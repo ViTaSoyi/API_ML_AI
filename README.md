@@ -29,6 +29,7 @@
 1. [腾讯文本纠错API调用代码档]()
 - 腾讯文本纠错API输入输出  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%85%BE%E8%AE%AF%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E5%9B%BE.png)  
+[百度文本纠错API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99api.ipynb)
 - 百度文本纠错API输入输出  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.png)  
 **2. “腾讯文本纠错API”与“百度文本纠错API”的对比分析**  
@@ -55,7 +56,8 @@
 #### 百度依存句法分析API
 1. [百度依存句法分析API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90.ipynb)   
 - 百度依存句法API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95.png)
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95.png)  
+[讯飞依存句法分析API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%AE%AF%E9%A3%9E%E4%BE%9D%E5%AD%98%E8%AF%AD%E5%8F%A5%E5%88%86%E6%9E%90.ipynb)
 - 讯飞依存句法API输入输出  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%AE%AF%E9%A3%9E%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95.png)
 **2. "百度依存语句分析API"与"腾讯句法依存分析API"的对比分析**  

@@ -85,11 +85,67 @@
 - 可替代方案：百度依存句法分析接口训练数据依赖于用户在百度的日常搜索数据和全网网页数据。而LTP是是哈工大社会计算与信息检索研究中心历时十年研制的一整套开放中文自然语言处理系统，具有一整套自底向上的丰富、高效、高精度的中文自然语言处理模块，目前LTP是国内外最具影响力的中文处理基础平台。
 
 #### 有道文本翻译API  
-1. [有道文本翻译API调用代码档]()   
-- 百度依存句法API输入输出  
-![]()
-- 讯飞依存句法API输入输出  
-![]()
+1. **有道文本翻译API输入输出**  
+```
+import sys
+import uuid
+import requests
+import hashlib
+import time
+from imp import reload
+import time
+
+reload(sys)
+
+YOUDAO_URL = 'https://openapi.youdao.com/api'
+APP_KEY = '?' # 自己申请的APP_KEY
+APP_SECRET = '?' # APP_KEY对应的APP_SECRET
+
+def encrypt(signStr):
+    hash_algorithm = hashlib.sha256()
+    hash_algorithm.update(signStr.encode('utf-8'))
+    return hash_algorithm.hexdigest()
+
+def truncate(q):
+    if q is None:
+        return None
+    size = len(q)
+    return q if size <= 20 else q[0:10] + str(size) + q[size - 10:size]
+
+def do_request(data):
+    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
+    return requests.post(YOUDAO_URL, data=data, headers=headers)
+
+def connect():
+    q = "待输入的文字"
+
+    data = {}
+    data['from'] = 'zh-CHS'
+    data['to'] = 'en'
+    data['signType'] = 'v3'
+    curtime = str(int(time.time()))
+    data['curtime'] = curtime
+    salt = str(uuid.uuid1())
+    signStr = APP_KEY + truncate(q) + salt + curtime + APP_SECRET
+    sign = encrypt(signStr)
+    data['appKey'] = APP_KEY
+    data['q'] = q
+    data['salt'] = salt
+    data['sign'] = sign
+
+    response = do_request(data)
+    contentType = response.headers['Content-Type']
+    print(response.content)
+
+
+if __name__ == '__main__':
+    connect()
+```  
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E6%9C%89%E9%81%93%E7%BF%BB%E8%AF%91%E8%BE%93%E5%87%BA.png)  
+[百度文本翻译API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91.ipynb)
+- 百度文本翻译API输入输出  
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91.png)  
+
 **2. "百度依存语句分析API"与"腾讯句法依存分析API"的对比分析**  
 - [有道文本翻译接口官方文档](https://irma.youdao.com/html/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E7%BF%BB%E8%AF%91/API%E6%96%87%E6%A1%A3/%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1/%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1-API%E6%96%87%E6%A1%A3.html)
 - [百度通用翻译接口官方文档](http://fanyi-api.baidu.com/api/trans/product/apidoc#joinFile)  
@@ -106,8 +162,8 @@
 - 定价：根据上述所提到的公司，查找了各自文本翻译API服务的产品价格，产品的平均价格为53元/百万字符。有道的文本翻译价格低于该平均价格5元，有道的市场竞争力会更大，并且价格设置也是合理的。
 
 ### （七）产品原型设计  
-[产品原型文档下载]()  
-[产品原型交互效果]()
+[产品原型文档下载](https://github.com/ViTaSoyi/interactive_prototype)  
+[产品交互原型](http://virginiat.gitee.io/interactive_prototype/start.html#g=1&p=%E9%A6%96%E9%A1%B5)
 
 - **首页**  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E9%A6%96%E9%A1%B5.png)  

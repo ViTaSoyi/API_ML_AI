@@ -11,7 +11,7 @@
 ### （一）背景  
 随着中国“一带一路”的经济建设和语言学习旅行市场的扩大，愈来愈多的外国人学习中文，兴起了汉语热。汉语的语法不同于欧洲的语法，而且一词存在多词义想象，为此汉语也被评为世界难学语言的前十。目前，市场上虽然有许多汉语学习的APP，但是都只是针对汉语的发音和字词基础学习，不能对用户日常错误的文本/句子提供反馈，用户只能在现实生活中碰壁寻找答案。  
 ###  (二）价值主张  
-自然汉语APP让用户能深刻理解汉语句子的同时还能遇到同道中人和趣事。本产品会通过文本纠错的功能，帮助用户对输入的句子进行错别文本的筛查，筛查后会反馈用户正确的文本信息。并且句子结构分析功能会根据上一步文本纠错后返回的正确文本的句子进行句法分析，帮助用户能够理解每一个字词的词性以及它们之间的依存关系，让用户更容易理解该句子的构成。同时提供翻译的功能，使用户在查看分析的过程中能更有效地理解分析的内容。除了最基础以及核心的功能外，还为用户提供社交和收藏的功能，用户可以对自己新学或者疑问分享给他人，同时也还能收藏起来，方便之后的复习和查阅。并且用户还能关注自己喜欢的小伙伴，和小伙伴进一步交流；想获得更多学习技巧和获得更多内容指导，自然汉语APP还提供了推荐和发现功能，用户能够获得更多额外的汉语知识的同时还能得知他人学习汉语的新鲜事。
+自然汉语APP让用户能深刻理解汉语句子的同时还能遇到同道中人和趣事。本产品在首页会通过文本纠错的功能，帮助用户对输入的句子进行错别文本的筛查，筛查后会反馈用户正确的文本信息。并且句子结构分析功能会根据上一步文本纠错后返回的正确文本的句子进行句法分析，帮助用户能够理解每一个字词的词性以及它们之间的依存关系，让用户更容易理解该句子的构成。同时提供翻译的功能，使用户在查看分析的过程中能更有效地理解分析的内容。除了最基础以及核心的功能外，还为用户提供社交和收藏的功能，用户可以对自己新学或者疑问分享给他人，同时在收藏页面用户可查阅和复习先前收藏的学习内容。想获得更多学习技巧和获得更多内容指导，自然汉语APP还提供了推荐和发现功能，用户能够获得更多额外的汉语知识以及得知他人学习汉语的新鲜事，甚至可以关注自己喜欢的小伙伴，和小伙伴进一步交流
 ### （三）加值宣言  
 基于为了让初学汉语的外国人能够了解基本的汉语语法，还能够掌握更符合自然语境的语言表达。APP首先会采用百度的文本纠错api，识别用户输入的文本中有错误的片段，进行错误提示并给出正确的建议文本内容；然后采用百度的依存句法分析API，自动分析正确文本中的依存句法结构信息，实现对自然语言的精准理解；同时采用有道的文本翻译api，将中文的解析文本转换成目标语言文本，便于用户理解。
 ### （四）核心价值  
@@ -36,12 +36,9 @@
 
 ### （八）API调用  
 #### 百度文本纠错API
-1. [百度文本纠错API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99api.ipynb)
-- 百度文本纠错API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.png)  
-[腾讯文本纠错API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%85%BE%E8%AE%AF%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99API.ipynb)
-- 腾讯文本纠错API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%85%BE%E8%AE%AF%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA.png)  
+1. [百度文本纠错API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99api.ipynb)
+
+[腾讯文本纠错API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%85%BE%E8%AE%AF%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99API.ipynb)
 
 **2. “百度文本纠错API”与“腾讯文本纠错API”的对比分析**  
 - [百度文本纠错API官方文档](https://ai.baidu.com/ai-doc/NLP/vk3pmn49r#%E6%96%87%E6%9C%AC%E7%BA%A0%E9%94%99%E6%8E%A5%E5%8F%A3)  
@@ -62,12 +59,10 @@
 - 可替代程序库：https://my.oschina.net/keyven/blog/516808
 
 #### 百度依存句法分析API
-1. [百度依存句法分析API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90.ipynb)   
-- 百度依存句法API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95.png)  
-[讯飞依存句法分析API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%AE%AF%E9%A3%9E%E4%BE%9D%E5%AD%98%E8%AF%AD%E5%8F%A5%E5%88%86%E6%9E%90.ipynb)
-- 讯飞依存句法API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%AE%AF%E9%A3%9E%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95.png)
+1. [百度依存句法分析API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90.ipynb)   
+
+[讯飞依存句法分析API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%AE%AF%E9%A3%9E%E4%BE%9D%E5%AD%98%E8%AF%AD%E5%8F%A5%E5%88%86%E6%9E%90.ipynb)
+
 **2. "百度依存语句分析API"与"腾讯句法依存分析API"的对比分析**  
 - [百度依存句法分析接口官方文档](https://ai.baidu.com/ai-doc/NLP/ak3pmn40n#%E4%BE%9D%E5%AD%98%E5%8F%A5%E6%B3%95%E5%88%86%E6%9E%90%E6%8E%A5%E5%8F%A3)
 - [讯飞依存句法分析接口官方文档](https://www.xfyun.cn/doc/nlp/dependencyParsing/API.html)  
@@ -87,66 +82,9 @@
 - 可替代程序库：LTP是是哈工大社会计算与信息检索研究中心历时十年研制的一整套开放中文自然语言处理系统，具有一整套自底向上的丰富、高效、高精度的中文自然语言处理模块，并且目前LTP是国内外最具影响力的中文处理基础平台。pyltp是LTP的Python封装，[python&pyltp实现依存句法分析](https://blog.csdn.net/weixin_43846196/article/details/100635711)
 
 #### 有道文本翻译API  
-1. **有道文本翻译API输入输出**  
-```
-import sys
-import uuid
-import requests
-import hashlib
-import time
-from imp import reload
-import time
+1. [有道文本翻译API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E6%9C%89%E9%81%93%E7%BF%BB%E8%AF%91API.ipynb)  
 
-reload(sys)
-
-YOUDAO_URL = 'https://openapi.youdao.com/api'
-APP_KEY = '?' # 自己申请的APP_KEY
-APP_SECRET = '?' # APP_KEY对应的APP_SECRET
-
-def encrypt(signStr):
-    hash_algorithm = hashlib.sha256()
-    hash_algorithm.update(signStr.encode('utf-8'))
-    return hash_algorithm.hexdigest()
-
-def truncate(q):
-    if q is None:
-        return None
-    size = len(q)
-    return q if size <= 20 else q[0:10] + str(size) + q[size - 10:size]
-
-def do_request(data):
-    headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-    return requests.post(YOUDAO_URL, data=data, headers=headers)
-
-def connect():
-    q = "待输入的文字"
-
-    data = {}
-    data['from'] = 'zh-CHS'
-    data['to'] = 'en'
-    data['signType'] = 'v3'
-    curtime = str(int(time.time()))
-    data['curtime'] = curtime
-    salt = str(uuid.uuid1())
-    signStr = APP_KEY + truncate(q) + salt + curtime + APP_SECRET
-    sign = encrypt(signStr)
-    data['appKey'] = APP_KEY
-    data['q'] = q
-    data['salt'] = salt
-    data['sign'] = sign
-
-    response = do_request(data)
-    contentType = response.headers['Content-Type']
-    print(response.content)
-
-
-if __name__ == '__main__':
-    connect()
-```  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E6%9C%89%E9%81%93%E7%BF%BB%E8%AF%91%E8%BE%93%E5%87%BA.png)  
-[百度文本翻译API调用代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91.ipynb)
-- 百度文本翻译API输入输出  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91.png)  
+[百度文本翻译API输入输出代码档](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91.ipynb)
 
 **2. "有道文本翻译API"与"百度通用翻译API"的对比分析**  
 - [有道文本翻译接口官方文档](https://irma.youdao.com/html/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E7%BF%BB%E8%AF%91/API%E6%96%87%E6%A1%A3/%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1/%E6%96%87%E6%9C%AC%E7%BF%BB%E8%AF%91%E6%9C%8D%E5%8A%A1-API%E6%96%87%E6%A1%A3.html)

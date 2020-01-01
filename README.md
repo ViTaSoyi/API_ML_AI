@@ -104,8 +104,10 @@
 - 定价：根据上述所提到的公司，查找了各自文本翻译API服务的产品价格，产品的平均价格为53元/百万字符。有道的文本翻译价格低于该平均价格5元。
 
 ## （九）产品架构图  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
-## （十）产品原型设计  
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)  
+## （十）产品流程图  
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+## （十一）产品原型设计  
 [产品原型文档下载](https://github.com/ViTaSoyi/interactive_prototype)  
 [产品交互原型](http://virginiat.gitee.io/interactive_prototype/start.html#g=1&p=%E9%A6%96%E9%A1%B5)
 

@@ -108,14 +108,14 @@
 ## （十）产品流程图  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 ## （十一）产品原型设计  
-[产品原型文档下载](https://github.com/ViTaSoyi/interactive_prototype)  
-[产品交互原型](http://virginiat.gitee.io/interactive_prototype/start.html#g=1&p=%E9%A6%96%E9%A1%B5)
+[产品原型文档下载](https://github.com/ViTaSoyi/prototype)  
+[产品交互原型](https://vitasoyi.github.io/prototype/)
 
 - **首页**  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E9%A6%96%E9%A1%B5.png)  
+![]()  
 - **收藏**  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E6%94%B6%E8%97%8F.png)  
+![]()  
 - **发现**  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%8F%91%E7%8E%B0.png)  
+![]()  
 - **我的**  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E6%88%91%E7%9A%84.png)
+![]()

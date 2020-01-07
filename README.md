@@ -112,7 +112,8 @@
 [产品交互原型](https://vitasoyi.github.io/prototype/)
 
 - **核心功能交互图**  
-> 输入文本 —— 文本纠错 —— 文本翻译/句法分析 —— 文本翻译
+> 输入文本 —— 文本纠错 —— 文本翻译/句法分析 —— 文本翻译  
+
 ![输入文本](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E9%A6%96%E9%A1%B5.png)
 ![分析结果](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90.png)
 ![分析失败](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90%E5%A4%B1%E8%B4%A5.png)

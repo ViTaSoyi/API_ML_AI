@@ -104,20 +104,16 @@
 - 定价：根据上述所提到的公司，查找了各自文本翻译API服务的产品价格，产品的平均价格为53元/百万字符。有道的文本翻译价格低于该平均价格5元。
 
 ## （九）产品架构图  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)  
+![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg) 
 ## （十）产品流程图  
 ![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E4%BA%A7%E5%93%81%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
 ## （十一）产品原型设计  
 [产品原型文档下载](https://github.com/ViTaSoyi/prototype)  
 [产品交互原型](https://vitasoyi.github.io/prototype/)
 
-- **首页**  
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E9%A6%96%E9%A1%B5.png) 
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90.png) 
-![](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90%E5%A4%B1%E8%B4%A5.png) 
-- **收藏**  
-![]()  
-- **发现**  
-![]()  
-- **我的**  
-![]()
+- **核心功能交互图**  
+> 输入文本 —— 文本纠错 —— 文本翻译/句法分析 —— 文本翻译
+![输入文本](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E9%A6%96%E9%A1%B5.png)
+![分析结果](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90.png)
+![分析失败](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90%E5%A4%B1%E8%B4%A5.png)
+

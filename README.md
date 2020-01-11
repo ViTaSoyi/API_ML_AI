@@ -118,3 +118,5 @@
 ![分析结果](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90.png)
 ![分析失败](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E5%88%86%E6%9E%90%E5%A4%B1%E8%B4%A5.png)
 
+## （十）20X20价值主张训练
+[20X20价值主张-PPT](https://github.com/ViTaSoyi/API_ML_AI/blob/master/%E8%87%AA%E7%84%B6%E6%B1%89%E8%AF%AD.pptx)
